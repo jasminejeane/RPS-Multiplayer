@@ -1,0 +1,13 @@
+.container{
+
+  background-color: lightblue;
+  /*text-align: center;*/
+}
+.name-form{
+  margin-bottom: 25px;
+}
+.box{
+  border: 2px solid black;
+  height: 250px;
+  width: 250px;
+}

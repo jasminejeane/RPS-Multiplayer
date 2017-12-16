@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+<div class="container text-center">
+
+  <h1>Rock Paper Scissors</h1>
+    <form class="name-form">
+      <input type="text" placeholder="name">
+      <input type="submit">
+    </form>
+
+    <p>Hi <span></span> You are Player <span></span></p>
+    <p>Waiting on <span></span> to choose</p>
+    <p>It's Your Turn!</p>
+
+  <div class="row text-center">
+    <div class="col-md-4">
+      <div class="box">
+        <p>Waiting for Player 1</p>
+        <p class="rock">Rock</p>
+        <p class="paper">Paper</p>
+        <p class="scissors">Scissors</p>
+        <h2 class="choice"></h2>
+        <p> Wins: <span></span></p>
+        <p> Losses:<span></span></p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="box">
+        <p class="who-won"><span></span> Wins!</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="box">
+        <p class="waiting">Waiting for Player 2</p>
+        <p class="rock">Rock</p>
+        <p class="paper">Paper</p>
+        <p class="scissors">Scissors</p>
+        <h2 class="choice"></h2>
+        <p> Wins: <span></span></p>
+        <p> Losses:<span></span></p>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+</div>
+<!-- input -->
+<!-- 3 colums -->
+<!-- player 1 [with choices] - middle [winner] - player 2[with choices] -->
+
+<!-- chat area icebox-->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+    <script type="text/javascript" src="assets/app.js"></script>
+  </body>
+</html>
